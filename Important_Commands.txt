@@ -1,27 +1,33 @@
-pwd print working directory
-hostname my computer’s network name
-mkdir make directory
-cd change directory
-ls list directory
-rmdir remove directory
-pushd push directory
-popd pop directory
-cp copy a fi le or directory
-robocopy robust copy
-mv move a fi le or directory
-more page through a fi le
-type print the whole fi le
-forfi les run a command on lots of fi les
-dir - r fi nd fi les
-select- string fi nd things inside fi les
-help read a manual page
-helpctr fi nd what man page is appropriate
-echo print some arguments
-set export/set a new environment variable
-exit exit the shell
-runas DANGER! become super user root DANGER!
+pwd - print working directory
+hostname - my computer’s network name
+mkdir - make directory
+cd - change directory
+ls - list directory
+rmdir - remove directory
+pushd - push directory
+popd - pop directory
+cp - copy a file or directory
+robocopy - robust copy
+mv - move a file or directory
+more - page through a file
+type - print the whole file
+forfiles - run a command on lots of files
+dir - r - find files
+select- string - find things inside files
+help - read a manual page
+helpctr - fi nd what man page is appropriate
+echo - print some arguments
+set - export/set a new environment variable
+exit - exit the shell
+runas - DANGER! become super user root DANGER!
 
 --
+
+• close—Closes the file. Like File- >Save.. in your editor.
+• read—Reads the contents of the file. You can assign the result to a variable.
+• readline—Reads just one line of a text file.
+• truncate—Empties the file. Watch out if you care about the file.
+• write(stuff)—Writes stuff to the file.
 
 To open a text file, use:
 fh = open("hello.txt", "r")

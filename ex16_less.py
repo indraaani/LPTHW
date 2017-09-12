@@ -1,3 +1,6 @@
+# Ex16: Reading & Writing Files
+# Using strings, formats and escapes, use target.write only once
+
 from sys import argv
 
 script, filename = argv
@@ -22,4 +25,7 @@ line3 = raw_input("line 3: ")
 
 print "I'm going to write these to the file."
 
-target.write("%s\n%s\n%s\n" % (line1, line2, line3)) 
+target.write("%s\n%s\n%s\n" % (line1, line2, line3))
+
+print "And finally, we close it."
+target.close()

@@ -1,4 +1,5 @@
 # Ex17: More Files
+# Merge lines 12, 13 into one line
 
 from sys import argv
 from os.path import exists
