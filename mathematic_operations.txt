@@ -1,9 +1,0 @@
-+ plus means addition	
-- minus means subtraction
-/ slash means division
-* asterisk means multiplication
-% percent means modulus/modulo (remainder after division)
-< less-than means .. less than. will show if true or false.
-> greater-than means .. greater than.  will show if true or false.
-<= less-than-equal means .. less-than or equal.  will show if true or false.
->= greater-than-equal means .. greater-than or equal.  will show if true or false.

@@ -1,0 +1,122 @@
+Print
+Outputs results of expressions
+
+Python
+Run script using python
+
+#
+Hash - comment out part of the script
+
+%
+Modulo operator - yields the remainder of division
+
+%r
+String - passes a string value as debug
+
+\\
+Escape - escape character that lets a backslash character appear within a string
+
+open
+Open - opens a file of the given file type
+
+file
+File - constructs a file of the given file type
+
+os
+Operating system - displays operating system?
+
+argv
+Argv - the list of command line arguments passed on to a python script
+
+read
+Read - function that reads a file's contents
+
+def
+Def - begins a function
+
+args
+Args - passes an argument list, like argv, for functions
+
+-
+Subtraction - subtracts one value from another
+
++
+Addition or Concatenate - add one value to another
+
+/
+Division - divides two values
+
+*
+Multiplication - multiplies two values
+
+>
+Greater than - compares one value to another to see if it is larger
+
+<
+Less than - compares one value to another to see if it is smaller
+
+>=
+Greater than or equal to - compares one value to see if it is greater than or equal to another
+
+<=
+Less than or equal to - compares to see if one value is greater than or equal to another
+
+=
+Equals - defines something
+
+%d
+Decimal - passes along a decimal value
+
+%s
+String - passes a string value as it should be displayed
+
+/n
+Newline - Sticks a new line within a string
+
+/t
+Tab - tabs over within a string
+
+\
+Escape - prevents the string from ending too early. Followed by the character that would make the string end such as double quotes or single quotes
+
+"""
+Triple double quotes - allows you to print as much text as you want
+
+'''
+Triple single quotes - allows you to print as much text as you want
+
+raw_input
+Raw input - prompts the user to input something that is then converted to a string
+
+pydoc
+Documentation - command to display python documentation for something (functions, etc.)
+
+sys
+Built in module - from sys import argv. The list of command line arguments passed to a python script.
+
+import
+Import - imports names from a module directly into the importing module's symbol table
+
+close
+Close - function that closes a file
+
+readline
+Readline - reads an entire line from a file
+
+truncate
+Truncate - empties a file
+
+write
+Write - writes stuff to a file
+
+exists
+Exists - function that returns True if the path refers to an existing one, or False if the path is broken.
+
+seek
+Seek - set a file's position
+
++=
+Delimiter - variable equals itself plus one
+
+return
+Return - returns anything you want by adding "="
