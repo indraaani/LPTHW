@@ -84,7 +84,7 @@ print "We can also do that this way:"
 # bug: % secret_formula(start_pont [fixed (start_pont to (start_point)]
 print "We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point)
 
-# # bug: sentence = "All god\tthings come to those who weight."
+# bug: sentence = "All god\tthings come to those who weight."
 # [corrected spelling of 'good' and 'wait', removed \t]
 sentence = "All good things come to those who wait."
 
