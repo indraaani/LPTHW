@@ -1,5 +1,12 @@
 git add . 
+
 git status
+
 git commit -m "??"
+
 git log
+
 git push
+
+git mv casesensitive tmp
+git mv tmp CaseSensitive
