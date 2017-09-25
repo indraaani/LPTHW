@@ -12,7 +12,7 @@ def print_animal(index):
     else:
         ordinal_num = str(index)+"th"
 
-    print "The %s animal is at %d and is a %s." % (ordinal_num, index-1, animals[index-1])
+    print "The animal at %d is the %s animal and is a %s." % (index-1, ordinal_num, animals[index-1])
 
 for i in range(1, 7):
     print_animal(i)
