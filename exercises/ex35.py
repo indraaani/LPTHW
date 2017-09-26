@@ -1,3 +1,5 @@
+# Ex35: Branches and Functions
+
 from sys import exit
 
 def gold_room():
