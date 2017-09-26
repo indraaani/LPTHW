@@ -6,9 +6,11 @@ def gold_room():
     print "This room is full of gold. How much do you take?"
 
     next = raw_input("> ")
-    if "0" in next or "1" in next:
+#    if "0" in next or "1" in next: # make this code more robust
+
+    try:
         how_much = int(next)
-    else:
+    except ValueError:
         dead("Man, learn to type a number.")
 
     if how_much < 50:
