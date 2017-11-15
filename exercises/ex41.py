@@ -24,7 +24,7 @@ PHRASES = {
 }
 
 # do they want to drill phrases first
-PHRASE_FIRST = False
+PHRASE_FIRST = True
 if len(sys.argv) == 2 and sys.argv[1] == "english":
     PHRASE_FIRST = True
 
